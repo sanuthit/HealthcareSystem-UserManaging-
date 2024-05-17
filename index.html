@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+  <title>Home|Fit Well</title>
+  <link rel="stylesheet" href="./Styles.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="image-div"></div>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="login.php" class="login-button">Login</a></li>
+    </ul>
+  </div>
+  <div class="img"></div>
+    <!--Slide show section starts-->
+    <div class="slide-container">
+      <div class="Slideshow" style="max-width:520px; margin-top: 5px;">
+      <img class="mySlides" src="img/one.png" style="width:285%">
+        <img class="mySlides" src="img/two.png" style="width: 285%">
+        <img class="mySlides" src="img/three.png" style="width:285%">
+      </div>
+    <!--Slide show section ends-->
+    </div>
+    <!--slide show js-->
+    <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); 
+      }
+      </script>
+      <!--slide show js ends-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Transform Your Health with Personalized Diet Plans and Checkups.</h1>
+    <table class="service">
+      <tr>
+        <th><img src="img/CUSTOM-MEAL-PLANS.jpg"></th>
+        <th><img src="img/nutri.jpg"></th>
+        <th><img src="img/health.jpg"></th>
+      </tr>
+      <tr>
+        <td><h3>Customized Meal Plans</h3></td>
+        <td><h3>Nutritional Analysis</h3></td>
+        <td><h3>Comprehensive Health Assessments</h3></td>
+     </tr>
+     <tr>
+      <td>Our Customized Meal Plans are tailored to meet your specific dietary needs and goals, providing you with a personalized approach to healthy eating. Our expert nutritionists and dietitians work closely with you to create meal plans that are both nutritionally balanced and enjoyable, ensuring that you can achieve your desired health outcomes.</td>
+      <td>Our Nutritional Analysis service provides a comprehensive evaluation of your dietary intake, allowing you to gain insights into your nutrition and make informed choices for better health. Our team of qualified nutritionists and dietitians will analyze your current diet and provide valuable feedback to help you optimize your nutritional intake.</td>
+      <td>Our Comprehensive Health Assessments are designed to provide you with a detailed understanding of your overall health and well-being. With advanced diagnostic tools and expert analysis, we offer a comprehensive evaluation of various aspects of your health to help you make informed decisions and take proactive steps towards a healthier lifestyle.</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+     </tr>
+     <tr class="start">
+      <td><a href="#">Start Your Journey</a></td>
+      <td><a href="#">Start Your Journey</a></td>
+      <td><a href="#">Start Your Journey</a></td>
+     </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Packages</h1>
+    <table class="package">
+      <tr>
+        <th><a href="#"><img src="img/Basic.png" width="50%" height="50%"></a></th>
+        <th><a href="#"><img src="img/premium.png" width="50%" height="50%"></a></th>
+        <th><a href="#"><img src="img/family.png" width="50%" height="50%"></a></th>
+      </tr>
+    </table>
+    <br>
+    <br>
+
+    <h1 class="trial"><a href="#">Start Your FREE TRIAL</a></h1>
+    <br>
+    <hr>
+
+    <!--Customer review part start-->
+    <section class="review">
+      <div class="information">
+          <h3>What our clients says</h3>
+          </div>
+  
+  <div class="swiper review-slider">
+  
+     <div class="swiper-wrapper">
+  
+        <div class="swiper-slide slide">
+             <p>The diet planning service was okay, but I expected more personalized attention. The meal plan provided was generic and didn't take into account my specific dietary restrictions. However, the recipes were easy to follow, and I did notice some improvements in my overall health. It could have been better, but it wasn't a bad experience </p>
+                <div class="user">
+                  <img src="img/yasitha.jpg" alt="">
+                    <div class="info">
+                      <h3>Yasitha Ranasinghe</h3>
+                      <span>@yasitharanasinghe</span>
+                      </div>
+                  <i class="fas fa-quote-left"></i>
+              </div>
+        
+          
+  
+       <div class="swiper-slide slide">
+          <p>I had been struggling with weight management for years until I came across ABC Diet Planning. Their team of experts conducted a comprehensive health check-up, and based on the results, they designed a customized diet plan for me. I was pleasantly surprised by the results! Not only did I lose weight, but I also felt more energetic and healthier overall. Their professional and friendly approach made the entire process enjoyable. I'm grateful for their guidance and highly recommend them</p>
+              <div class="user">
+                  <img src="img/david.jpg" alt="">
+                      <div class="info">
+                          <h3>David Warner</h3>
+                          <span>@davidwarner</span>
+                      </div>
+                  <i class="fas fa-quote-left"></i>
+              </div>
+          </div>
+     
+          <div class="swiper-slide slide">
+            <p>I recently availed the diet planning service and health check-up package from XYZ Fit well, and I must say, it was an exceptional experience. The nutritionist provided me with a personalized diet plan that perfectly aligned with my goals and preferences. The health check-up was thorough, and the results were explained to me in detail. I highly recommend their services for anyone looking to improve their health</p>
+                <div class="user">
+                    <img src="img/deepika.jpg" alt="">
+                      <div class="info">
+                          <h3>Deepika Kapoor</h3>
+                          <span>@deepika kapoor</span>
+                      </div>
+                      <i class="fas fa-quote-left"></i>
+                  </div>
+              </div>
+  
+          <div class="swiper-slide slide">
+            <p>Fantastic service at a friendly price. My trainer Ryan helps me push towards my goals by squeezing that extra rep. Customer support keeps an eye on my activity and nudges me back into training whenever I have to skip a few sessions. Highly recommended!</p>
+                  <div class="user">
+                  <img src="img/alexa.jpg" alt="">
+                  <div class="info">
+                  <h3>Alexa Blacks</h3>
+                  <span>@alexablacks</span>
+              </div>
+          <i class="fas fa-quote-left"></i>
+        <button class="Readmore-Button" id="ReadmoreButton" ><a href="#">Read more</a></button>
+            </section>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <!--Customer review part end-->
+<br>
+  
+    <!--footer-->
+    <div class="footer">
+      <table>
+        <tr>
+          <th>Social Media</th>
+          <th>Contatc Us</th>
+          <th>Services</th>
+          <th>News</th>
+          <th>Privacy Policy</th>
+        </tr>
+        <tr>
+          <td>FaceBook</td>
+          <td>Phone: +94-112883882</td>
+          <td>Diet Plannings</td>
+          <td>New Study Reveals the Benefits of Balanced Diet and Regular Checkups</td>
+          <td>At this Diet Planning and Health Checkup System,</td>
+        </tr>
+        <tr>
+          <td>Instagram</td>
+          <td>Gmail: fitwellhealthcare@gmail.com</td>
+          <td>Helth check-up</td>
+          <td>Top 10 Superfoods for a Healthy Lifestyle</td>
+          <td>we take your privacy seriously. We are committed</td>
+        </tr>
+        <tr>
+          <td>Twiter</td>
+          <td>Yahoo: fitwellhealthcare@yahoo.com</td>
+          <td>Nutritional Guidelines</td>
+          <td>Introducing our New Mobile App for Easy Diet Tracking</td>
+          <td>to protecting the personal information you provide to us.</td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td>Fitness training</td>
+          <td>Expert Tips for Maintaining a Healthy Weight</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td>Manage Profile</td>
+          <td>The Importance of Regular Health Checkups: Catching Problems Early</td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td align="right">© 2023 Fit Well. All rights reserved.</td>
+        </tr>
+      </table>
+    </div>
+    <!--footer code ends-->
+</body>
+</html>
